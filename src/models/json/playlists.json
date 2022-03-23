@@ -1,0 +1,35 @@
+{
+  "playlists": [
+    {
+      "title": "White Sands Missile Range, New Mexico",
+      "lat": 44,
+      "lng": 66,
+      "userid": "e977583f-0f72-44bb-bd08-a7b2231f4a46",
+      "_id": "df11a3d4-0644-42ee-a38e-853ef2a860b1"
+    },
+    {
+      "title": "Hiroshima",
+      "lat": 34.3853,
+      "lng": 132.4553,
+      "userid": "e977583f-0f72-44bb-bd08-a7b2231f4a46"
+    },
+    {
+      "title": "Nagasaki",
+      "lat": "32.7503",
+      "lng": "129.8779",
+      "userid": "e977583f-0f72-44bb-bd08-a7b2231f4a46"
+    },
+    {
+      "title": "Reggane, Sahara Desert, Algeria",
+      "lat": "25.275963",
+      "lng": "-1.520862",
+      "userid": "e977583f-0f72-44bb-bd08-a7b2231f4a46"
+    },
+    {
+      "title": "Novaya Zemlya Island, C.I.S.",
+      "lat": "73.61580064",
+      "lng": "60.7848987",
+      "userid": "e977583f-0f72-44bb-bd08-a7b2231f4a46"
+    }
+  ]
+}

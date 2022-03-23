@@ -1,0 +1,42 @@
+{{> menu active="dashboard"}}
+
+<section class="section">
+    <h2>{{playlist.title}}</h2>
+ <table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Location</th>
+      <th>Lat</th>
+      <th>Lng</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each playlist}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{lat}}
+        </td>
+        <td>
+          {{lng}}
+        </td>
+        <td>
+          <a href="/track/{{../playlist._id}}/edittrack/{{_id}}" class="ui icon button">
+            <i class="fas fa-edit"></i>
+          </a>
+        </td>
+        <td>
+          <a href="/playlist/{{../playlist._id}}/deletetrack/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+ 
+</section>

@@ -1,0 +1,15 @@
+import Mongoose from "mongoose";
+
+const { Schema } = Mongoose;
+
+const playlistSchema = new Schema({
+  title: String,
+  lat: Number,
+  lng: Number,
+  userid: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+  },
+});
+
+export const Playlist = Mongoose.model("Playlist", playlistSchema);
